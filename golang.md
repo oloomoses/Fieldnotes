@@ -1,5 +1,5 @@
 In the projects, in which I work, it comes up that I am asked what I recommend for xyz. So that I don't forget half of the information, I'll started to collect it thematically and in a more or less structured way and publish it here.
-Here my hopefully helpful ressoures for the Go language.
+Here my hopefully helpful resources for the Go language.
 
 ## Blogs
 - [research!rsc](https://research.swtch.com/) Thoughts and links about programming, by Russ Cox
@@ -9,11 +9,19 @@ Here my hopefully helpful ressoures for the Go language.
 - [Three Dots Labs](https://threedots.tech/start/)
 - [Go 101 Blog](https://go101.org/blog/101.html)
 - [The Go Blog](https://go.dev/blog/)
-- [Redowan's Reflections](https://rednafi.com/archives/)
+- [Redowan's Reflections](https://rednafi.com/archive/)
 - [Over-Engineered](https://totallygamerjet.hashnode.dev/)
 - [Practical Go](https://dave.cheney.net/practical-go) A collection of real world advice for writing maintainable Go programs.
 - [willem.dev](https://www.willem.dev/articles/)
 - [Sameer Ajmani](https://ajmani.net/go/)
+- [Noam Yadgar](https://nyadgar.com/)
+
+## Newsletter
+
+- Go Weekly: https://golangweekly.com/issues/
+- Golang Weekly @Medium: https://golang.thisweekin.io/
+- Golang Nugget: https://golangnugget.com/
+- The applied Go weekly newsletter: https://newsletter.appliedgo.net/archive
 
 ## Recommended readings
 - my recommend books on golang can be found [here](https://github.com/vbd/Fieldnotes/blob/main/booklist.md#golang)
@@ -40,7 +48,7 @@ Not my code, should help to debug, will we need a 49" monitor for debugging or t
 ## Asking go questions
 
 - Go Forum: https://forum.golangbridge.org/
-- Go Forum: https://godev.com/
+- ~~Go Forum: https://godev.com/~~ 2025-03-18: no longer accessible
 - r/golang: https://www.reddit.com/r/golang/
 - golang-nuts: https://groups.google.com/g/golang-nuts
 - golang-dev: https://groups.google.com/g/golang-dev
@@ -60,6 +68,8 @@ Not my code, should help to debug, will we need a 49" monitor for debugging or t
 - [Do you make these Go coding mistakes?](https://yourbasic.org/golang/gotcha/)
 - [golangci-lint](https://github.com/golangci/golangci-lint), fast linters Runner for Go
 - :hot_pepper: [JSON-to-Go, convert JSON to Go struct](https://mholt.github.io/json-to-go/)
+- When is it OK to panic in Go?: https://www.alexedwards.net/blog/when-is-it-ok-to-panic-in-go
+- On the uses and misuses of panics in Go: https://eli.thegreenplace.net/2018/on-the-uses-and-misuses-of-panics-in-go/
 
 
 ## Concurrency (aka Nebenläufigkeit)
@@ -84,6 +94,8 @@ Not my code, should help to debug, will we need a 49" monitor for debugging or t
 - [The simplest config loader for Go that reads/watches from file, env, flag and clouds (AWS, Azure, GCP)](https://github.com/nil-go/konf)
 - Config file validator: Cross Platform tool to validate configuration files:  
 https://github.com/Boeing/config-file-validator
+- go-flags: go command line option parser<br>https://github.com/jessevdk/go-flags
+- go-arg: Struct-based argument parsing in Go<br>https://github.com/alexflint/go-arg
 
 
 
@@ -107,8 +119,14 @@ https://github.com/Boeing/config-file-validator
 - [Go packages](https://pkg.go.dev/)
 - [A curated list of awesome Go frameworks, libraries and software](https://github.com/avelino/awesome-go)
 - [Awesome-go list with stars. Automatically updated.](https://github.com/amanbolat/awesome-go-with-stars)
-- Golang Jobs - OnSite and Remote Golang Jobs: https://golangjob.xyz/
-- A curated list of awesome remote jobs and resources. Inspired by: https://github.com/lukasz-madon/awesome-remote-job 
+- Top Go Libraries 2025: https://libs.tech/go
+
+## Release / Deployment
+- goreleaser - Deliver Go binaries as fast and easily as possible: https://github.com/goreleaser/goreleaser
+- The ultimate justfile for any golang project: https://github.com/crazywolf132/ultimate-gojust
+- What do you use as build system?: https://www.reddit.com/r/golang/comments/196cowu/what_do_you_use_as_build_system/
+- task/taskfile - task runner/simpler Make alternative written in Go: https://github.com/go-task/task
+- just - a command runner: https://github.com/casey/just
 
 ## Profiling
 Based on a question from my team mate who is used to Pythons line_profiler (%lprun) and memory_profiler (%mprun).
@@ -125,14 +143,24 @@ Based on a question from my team mate who is used to Pythons line_profiler (%lpr
 - [Grafana Phlare lets you aggregate continuous profiling data with high availability, multi-tenancy, and durable storage.](https://grafana.com/oss/phlare/)
 - [Package trace contains facilities for programs to generate traces for the Go execution tracer.](https://pkg.go.dev/runtime/trace)
 - 🌶️ [Go by Example: Testing and Benchmarking](https://gobyexample.com/testing-and-benchmarking)
+- [Profiling and Optimising Go Code](https://medium.com/@ajitem/performance-optimization-in-go-checkmate-performance-using-chess-piece-movements-as-an-example-920a2b22be19)
+- Tips to debug hanging Go programs: https://michael.stapelberg.ch/posts/2025-02-27-debug-hanging-go-programs/
+- Unlocking Hidden Performance Bottlenecks in Golang using GoFr: The Underrated Power of pprof: https://dev.to/aryanmehrotra/unlocking-hidden-performance-bottlenecks-in-golang-using-gofr-the-underrated-power-of-pprof-2dc7
+- Patterns and Techniques for Writing High-Performance Applications with Go: https://goperf.dev/
 
 ## Learning & Miscellaneous
 
 - my recommend books on golang can be found [here](https://github.com/vbd/Fieldnotes/blob/main/booklist.md#golang)
+- Practice Go: a collection of Go programming challenges: https://github.com/plutov/practice-go
+- GoLab is a collection of simple Go projects designed to help learn and explore the Go programming language.: https://github.com/MuhammadSaim/go-lab
 - Five Go Projects: https://github.com/dreamsofcode-io/goprojects Not only five ideas to start with also **includes** code!
 - [List of Golang books](https://github.com/dariubs/GoBooks?tab=readme-ov-file)
 - Go go-to guide: https://yourbasic.org/golang/ by Stefan Nilsson
 - Golang tutorial series: https://golangbot.com/learn-golang-series/ by Naveen Ramanathan
+- Practical Go: Real world advice for writing maintainable Go programs:  
+https://dave.cheney.net/practical-go/presentations/gophercon-singapore-2019.html
+- Concurrency vs. Parallelism:  
+https://www.thecoder.cafe/p/concurrency-is-not-parallelism
 - :sound: [Jumping into an existing codebase](https://changelog.com/gotime/307)
 - 🌶️ [Algorithms and Data Structures implemented in Go for beginners, following best practices.](https://github.com/TheAlgorithms/Go)
 - [Effective Go](https://go.dev/doc/effective_go)
@@ -149,9 +177,7 @@ Based on a question from my team mate who is used to Pythons line_profiler (%lpr
 - [AI on the command line](https://github.com/charmbracelet/mods)
 - [A language for writing HTML user interfaces in Go.](https://github.com/a-h/templ)
 - [Go by Example](https://gobyexample.com/)
-- :tv: [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
-- :tv: [Go Programming – Golang Course with Bonus Projects](https://www.youtube.com/watch?v=un6ZyFkqFKo)
-- :tv: [Learn Go Programming by Building 11 Projects – Full Course](https://www.youtube.com/watch?v=jFfo23yIWac)
+
 - On Udemy I can recommend the golang courses from [Trevor Sawler](https://www.udemy.com/user/trevor-sawler/)
 - :tv: [Golang UK Conference 2017 | Achilleas Anagnostopoulos - Can you write an OS Kernel in Go?](https://www.youtube.com/watch?v=8T3VxGrrJwc)
 - [go_assessment](https://github.com/dmh2000/go_assessment), a port of Rebecca Murphey's js-assessment for Go. This is a tool for assessing or practicing beginner level programming in Golang.
@@ -160,8 +186,9 @@ Based on a question from my team mate who is used to Pythons line_profiler (%lpr
 - [Visualize Go slices and arrays](https://www.willem.dev/projects/slice-visualizer/) Explore the connection between slices and arrays by generating diagrams from Go code.
 - [Go Tutorials & Examples](https://gosamples.dev/)
 - :memo: [go-form](https://github.com/donseba/go-form) Render forms in go based on struct layout 
-
-
+- Official Golang Frequently Asked Questions (FAQ): https://go.dev/doc/faq
+- r/golang FAQ: https://www.reddit.com/r/golang/wiki/r_golang_faqs/
+- Code to Read When Learning Go<br>https://www.somethingsimilar.com/2013/12/26/code-to-read-when-learning-go/
 
   
 ## Cheatsheets
@@ -182,8 +209,17 @@ Based on a question from my team mate who is used to Pythons line_profiler (%lpr
 - [Remote Software Engineering Jobs](https://remotesoftwareengineeringjobs.com/?tech=Golang)
 - [echojobs](https://echojobs.io/)
 - [German tech jobs](https://germantechjobs.de/jobs/Golang/all)
-- [We Work Remotely](https://weworkremotely.com/)
 - [Go / Golang Jobs & developers](https://www.golangprojects.com/)
+- Golang Jobs - OnSite and Remote Golang Jobs: https://golangjob.xyz/
+- A curated list of awesome remote jobs and resources. Inspired by: https://github.com/lukasz-madon/awesome-remote-job 
+- Working Nomads: https://www.workingnomads.com/jobs?tag=golang
+- Remote OK: https://remoteok.com/remote-golang-jobs
+- We Work Remotely: https://weworkremotely.com/remote-jobs/search?term=golang
+- foundit.in (mostly India): https://www.foundit.in/srp/results?query=golang
+- gojobs: https://gojobs.run/
+- Jobs for developers: https://jobsfordevelopers.com/golang-jobs
+- Career Strategy: A Proven Guide to Building Your Path to Success<br>https://diamantinoalmeida.com/career-strategy-a-proven-guide-to-building-your-path-to-success/
+- EasyJob AI<br>https://easyjobai.com/search/golang
 
 
 ## Learning to code from source
@@ -230,12 +266,41 @@ Starting projects to learn from source and to get ideas what to build to learn a
 - :hotsprings: [A highly customisable CLI tool for writing conventional commits](https://github.com/stefanlogue/meteor)
 - [Spotify TUI player, written in Go](https://github.com/szktkfm/sptui)
 - [Create GIFs on the fly with ffmpeg](https://github.com/theIYD/go-gif-maker)
-- [Cemetery Escape is a game that you can play in your terminal.](https://github.com/tom-on-the-internet/cemetery-escape)
 - [A CLI tool for importing and utilizing exported social media data from popular services on Hugo websites.](https://github.com/ttybitnik/diego)
+- A distributed, fault-tolerant task queue: https://github.com/hatchet-dev/hatchet
+- ClickUp is a Go-based CLI tool that fetches and organizes tasks from ClickUp using their API: https://github.com/halabito8/clickup-tasks/tree/master
+- boring: The `boring` SSH tunnel manager: https://github.com/alebeck/boring
+- An persistent relational database built in Go.: https://github.com/Sahilb315/AtomixDB
+- A modern command-line interface for TickTick task management: https://github.com/sho0pi/tickli
+- Visualize your local Git contributions with Go: https://flaviocopes.com/go-git-contributions/
+- Build a Command Line app with Go: lolcat: https://flaviocopes.com/go-tutorial-lolcat/
+- Building a CLI command with Go: cowsay: https://flaviocopes.com/go-tutorial-cowsay/
+- Go CLI tutorial: fortune clone: https://flaviocopes.com/go-tutorial-fortune/
+- Use Go to get a list of repositories from GitHub: https://flaviocopes.com/go-github-api/
+- Command line weather app written in Go: https://github.com/josephburgess/gust
+- cz is a command-line tool for creating consistent, semantic commit messages with an interactive and user-friendly interface.: https://github.com/rockingrohit9639/cz
+- A CLI tool written in Go that allows you to view data about Pokémon from the terminal.: https://github.com/digitalghost-dev/poke-cli
+- A no-frills time tracking toolkit for command line nerds: https://github.com/dhth/hours
+- GoTOTP is a Simple Time-Based One-Time Password (TOTP) Library: https://github.com/MrTuNNe/GoTOTP
+- Attendance Tracker TUI from scratch, made in go<br>https://github.com/sahaj-b/go-attend
+- lastfmq - command-line tool/web scraper to query Last.fm artist information<br>https://github.com/oiweiwei/lastfmq
+- goFind - file pattern search<br>https://github.com/Lukas-Fohl/goFind?tab=readme-ov-file
+- Gozelle - A Blazing fast smart cd command written in go<br>https://github.com/ATLIOD/Gozelle/
+- AnonymoUS is a web-chatting application that aims to be completely anonymous. Each step, from authenications to messages sent are encrypted with their own technique to provide more security. Enjoy the various plugins like stock predictor or Meme Generator !<br>https://github.com/zelshahawy/AnonymoUS/tree/main
+- vanta - A lightweight protocol-aware packet analyzer and behavioral exporter. Created as a personal response to global academic freedom challenges.<br>https://github.com/lixiasky/vanta
+- tdm is a fast and lightweight download manager that runs in your terminal<br>https://github.com/NamanBalaji/tdm
+- MPM - my_project_manager is a command-line tool designed for developers who manage numerous projects.<br>https://github.com/giovapanasiti/my_project_manager
+- goso - Stack Overflow CLI search tool written in Go<br>https://github.com/shadowy-pycoder/goso
+- for advanced users: anubis - Weighs the soul of incoming HTTP requests to stop AI crawlers<br>https://github.com/TecharoHQ/anubis
+- qrypad - A simple terminal UI for quick, ad-hoc database exploration<br>https://github.com/wheelibin/qrypad
 
 
-
-
+## Learning game development from source
+- Cemetery Escape is a game that you can play in your terminal: https://github.com/tom-on-the-internet/cemetery-escape
+- Clone of the MicroProse game, Master of Magic: https://github.com/kazzmir/master-of-magic
+- A simple shooting game using ebitengine and golang: https://github.com/yohamta/godanmaku
+- top down panzer game written in golang and ebiten: https://github.com/brotherhood-of-recursive-descent/tankism
+- Roguelite game made with Go and Raylib - Demo & Game is available on Steam: https://github.com/unklnik/mr_snuggles_dungeon_adventure
 
 ## Learning by coding and contributing
 
@@ -252,8 +317,13 @@ Starting projects to learn from source and to get ideas what to build to learn a
 - [GPN18 - Go für Programmierer](https://www.youtube.com/watch?v=Bq9zubsyPSg)
 - [Advanced Golang](https://www.youtube.com/playlist?list=PLYEESps429vo2vvoUuAA6-fEDVgeqx3HW)
 - [Golang By Example For Beginners](https://www.youtube.com/playlist?list=PL0xRBLFXXsP5cru52B5GAQmIrTTAL8A66)
-- [10x Golang Engineer](https://www.youtube.com/playlist?list=PLkTEMR8VpCyns8PG4yNvxo5XyxGX2ScF3) 
-
+- [10x Golang Engineer](https://www.youtube.com/playlist?list=PLkTEMR8VpCyns8PG4yNvxo5XyxGX2ScF3)
+- Go (Golang): Eine Einführung in 130 Minuten // deutsch: https://www.youtube.com/watch?v=eqSjKOPt7dg
+- Golang Tutorial for Beginners | Full Go Course: https://www.youtube.com/watch?v=yyUHQIec83I
+- Learn GO Fast: Full Tutorial: https://www.youtube.com/watch?v=8uiZC0l4Ajw
+- Full Golang Tutorial - Learn Go by Building a TodoList App: https://www.youtube.com/watch?v=XCZWyN9ZbEQ
+- Go for Absolute Beginners – Tutorial: https://www.youtube.com/watch?v=akosxcqJorU
+- Go Programming Tutorial – 3 Beginner Projects: https://www.youtube.com/watch?v=k_V5VvYSlS4
 
 Some resources to find recorded talks from GopherCon Conferences:
 
@@ -282,6 +352,18 @@ Some resources to find recorded talks from GopherCon Conferences:
 - <https://www.youtube.com/@DonaldFeury/> (dated, but interesting)
 - <https://www.youtube.com/@samxsmith9102/>
 - <https://www.youtube.com/@samvcodes>
+- <https://www.youtube.com/@rwxrob/>
+- <https://www.youtube.com/@JustForFunc/> (dated, but still interesting)
+- <https://www.youtube.com/@TsodingDaily/search?query=golang>
+- <https://www.youtube.com/@mr_mux408/search?query=golang>
+- <https://www.youtube.com/@FloWoelki/search?query=golang>
+- <https://www.youtube.com/@kantancoding/videos> (not about golang, but interesting for coding in general)
+- <https://www.youtube.com/@softwarechats9307/videos> (short videos with ideas to think about)
+- <https://www.youtube.com/@NetNinja/search?query=golang>
+- <https://www.youtube.com/@BekBrace/>
+- <https://www.youtube.com/@bastisprogrammingcorner/>
+- <https://www.youtube.com/@codingwithsphere/>
+- <https://www.youtube.com/@packagemain/>
 
 ## WebDev
 
@@ -405,10 +487,16 @@ https://github.com/benhoyt/goawk
 - :memo: miller: is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON  
 https://github.com/johnkerl/miller 
  
-## Reminder: libraries for use in future projects?
+## Reminder: libraries to use / to test in future projects?
 
 - pulse: Like a fitness tracker for your coding sessions  
 https://github.com/creativecreature/pulse
+
+- revive: ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint  
+https://github.com/mgechev/revive
+
+- pipet: Swiss-army tool for scraping and extracting data from online assets, made for hackers  
+https://github.com/bjesus/pipet
 
 
 ---
